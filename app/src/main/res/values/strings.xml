@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NavHelper</string>
+    <string name="auther">by cx....</string>
+    <string name="stat_running">Running</string>
+    <string name="stat_stopped">Stopped</string>
+    <string name="ctrl_start">Start</string>
+    <string name="ctrl_stop">Stop</string>
+    <string name="desc">Keep audio playing when navigating</string>
+    <string name="full_screen">Enable</string>
+    <string name="auto_rotate">Auto Rotate</string>
+    <string name="hdmi_full_screen">HDMI Full Screen</string>
+    <string name="hdmi_auto_rotate">HDMI Auto Rotate</string>
+</resources>

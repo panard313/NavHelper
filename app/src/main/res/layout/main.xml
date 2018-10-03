@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/desc" />
+
+    <TextView
+        android:id="@+id/text_stat"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="@color/orangered"
+        android:text="@string/stat_stopped" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="101dp">
+
+        <Button
+            android:id="@+id/btn_ctrl"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button"
+            android:textColor="@color/button_text"
+            android:text="@string/ctrl_start" />
+
+        <!-- Button
+            android:id="@+id/btn_lcd_a"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/shape_button"
+            android:layout_alignParentBottom="true"
+            android:text="@string/auto_rotate"
+            android:textColor="@color/button_text" / -->/>
+
+    <!-- inearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="107dp">
+
+        <Button
+            android:id="@+id/btn_hdmi_f"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/shape_button"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/button_text"
+            android:text="@string/hdmi_full_screen" />
+
+        <Button
+            android:id="@+id/btn_hdmi_a"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:background="@drawable/shape_button"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/button_text"
+            android:text="@string/hdmi_auto_rotate" / -->
+    </LinearLayout>
+
+</LinearLayout>
